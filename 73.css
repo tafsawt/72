@@ -1,1 +1,756 @@
+/* Start Shbkat Css */
+html, body {
+	margin: 0px;
+	padding: 0px;
+	background: #ffd0a2 url('http://i57.servimg.com/u/f57/18/02/43/58/bg11.jpg') fixed;
+	font-family: arial;
+	font-size: 11px;
+	color: #000000;
+}
+ul, li, h1, h2, h3, h4 {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	list-style-position: inside;
+}
 
+input, textarea, sub, select {
+	font: Normal 13px arial;
+	text-decoration: none;
+	outline: 0px none;
+	margin: 0px;
+	padding: 0px;
+}
+legend {
+	background: transparent url(../shbkat/tit.jpg) repeat-x top left;
+	color: #ffead0;
+	font: bold 12px arial
+	border-style: none;
+	border-color: transparent;
+	padding: 3px 8px;
+	text-shadow: 0 1px 0 #83472b;
+}
+fieldset {
+	margin-bottom: 6px;
+	border: 1px #fdcc93 dashed;
+}
+hr {
+	background: #fdcc93 ;
+	border-color: #FFFFFF;
+}
+a {
+	color: #90502f;
+	text-decoration: none;
+}
+a:link, body_alink {
+	color: #90502f;
+	text-decoration: none;
+}
+a:visited, body_avisited {
+	color: #90502f;
+	text-decoration: none;
+}
+a:hover, a:active {
+	color: #5b2d19;
+	text-decoration: none;
+}
+.page {
+	margin: auto;
+}
+.page a:link, .page_alink {
+	text-decoration: none;
+}
+.page a:visited, .page_avisited {
+	text-decoration: none;
+}
+.page a:hover, .page a:active, .page_ahover {
+	text-decoration: none;
+}
+.floatcontainer {
+	margin: auto;
+	overflow: hidden;
+	width: 99%;
+}
+td, th, p, li {
+	font: 13px arial arial, helvetica,verdana;
+}
+.tborder {
+	background: none;
+}
+.tcat {
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/tab10.jpg') repeat-x center -1px;
+	color: #dbe6bf;
+	font: bold 14px arial, arial, helvetica,verdana;
+	text-align: center;
+	height:20px;
+	padding:5px;
+	text-shadow: 0 1px 0 #21241e;
+}
+.tcat a:link, .tcat_alink {
+	color: #dbe6bf;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active {
+	color: #FF0000;
+	text-decoration: none;
+}
+.thead {
+	background: transparent url('../shbkat/tit.jpg') repeat-x center -1px;
+	color: #5c2e19;
+	font: bold 13px arial, arial, helvetica,verdana;
+	padding:5px;
+	height:20px;
+	text-shadow: 0 1px 0 #e5a063;
+}
+.thead a:link, .thead_alink {
+	text-decoration: none;
+	color: #5c2e19;
+}
+.thead a:visited, .thead_avisited {
+	text-decoration: none;
+	color: #5c2e19;
+}
+.thead a:hover, .thead a:active, .thead_ahover {
+	text-decoration: none;
+	color: #402011;
+}
+.tfoot {
+	background: transparent;
+	color: #7c4026;
+	font: 13px arial, arial, helvetica,verdana;
+	padding: 5px;
+}
+.tfoot a:link, .tfoot_alink {
+	color: #7c4026;
+	text-decoration: none;
+}
+.tfoot a:visited, .tfoot_avisited {
+	color: #7c4026;
+	text-decoration: none;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover {
+	color: #9a5d3c;
+	text-decoration: none;
+}
+.alt1, .alt1Active {
+	background: #FFF5EA;
+	font: bold 17px arial, helvetica,verdana;
+	border-top: 1px #ffffff solid;
+	border-left: 1px #ffffff solid;
+	border-right: 1px #f5d8b6 solid;
+	border-bottom: 1px #f5d8b6 solid;
+}
+.alt1 a:link, .alt1_alink, .alt1Active a:link, .alt1Active_alink {
+	text-decoration: none;
+}
+.alt1 a:visited, .alt1_avisited, .alt1Active a:visited, .alt1Active_avisited {
+	text-decoration: none;
+}
+.alt1 a:hover, .alt1 a:active, .alt1_ahover, .alt1Active a:hover, .alt1Active a:active, .alt1Active_ahover {
+	text-decoration: none;
+}
+.alt2, .alt2Active {
+	background: #FFEBD5;
+	font: bold 16px arial, helvetica,verdana;
+	border-top: 1px #ffffff solid;
+	border-left: 1px #ffffff solid;
+	border-right: 1px #f5d8b6 solid;
+	border-bottom: 1px #f5d8b6 solid;
+}
+.alt2 a:link, .alt2_alink, .alt2Active a:link, .alt2Active_alink {
+	text-decoration: none;
+}
+.alt2 a:visited, .alt2_avisited, .alt2Active a:visited, .alt2Active_avisited {
+	text-decoration: none;
+}
+.alt2 a:hover, .alt2 a:active, .alt2_ahover, .alt2Active a:hover, .alt2Active a:active, .alt2Active_ahover {
+	text-decoration: none;
+}
+.inlinemod {
+	background: #FFFFCC;
+	color: #90502F;
+}
+.wysiwyg {
+	background: #FFFFFF;
+	color: #90502F;
+	font: bold 16px arial, helvetica,verdana;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink {
+	color: #90502F;
+	text-decoration: none;
+}
+.wysiwyg a:visited, .wysiwyg_avisited {
+	color: #90502F;
+	text-decoration: none;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover {
+	color: #5B2D19;
+	text-decoration: none;
+}
+textarea, .bginput {
+	font: 13px arial, arial, helvetica,verdana;
+}
+.bginput option, .bginput optgroup {
+	font-size: 12px;
+	font-family: aeial, arial, helvetica,verdana;
+}
+.button {
+	font: 13px aeial,Verdana,Arial,Helvetica,sans-serif;
+}
+select {
+	font: 13px aeial,Verdana,Arial,Helvetica,sans-serif;
+}
+option, optgroup {
+	font-size: 12px;
+	font-family: aeial,Verdana,Arial,Helvetica,sans-serif;
+}
+.smallfont {
+	font: 12px aeial;
+	color: #000000;
+}
+.time {
+	color: #542B1A;
+	font: 13px aeial,Verdana,Arial,Helvetica,sans-serif;
+}
+.navbar {
+	font: bold 11px aeial, arial, helvetica,verdana;
+}
+.navbar a:link, .navbar_alink {
+	text-decoration: none;
+}
+.navbar a:visited, .navbar_avisited {
+	text-decoration: none;
+}
+.navbar a:hover, .navbar a:active, .navbar_ahover {
+	text-decoration: none;
+}
+.highlight {
+	color: #90502F;
+	font-weight: bold;
+}
+.fjsel {
+	background: #ffdeb6;
+	color: #90502F;
+}
+.fjdpth0 {
+	background: #ffe9cd;
+	color: #90502F;
+}
+.panel {
+	background: #ffe7cc;
+	color: #90502F;
+	padding: 10px;
+	border: 0px;
+	margin: 5px;
+}
+.panel a:link, .panel_alink {
+	text-decoration: none;
+}
+.panel a:visited, .panel_avisited {
+	text-decoration: none;
+}
+.panel a:hover, .panel a:active, .panel_ahover {
+	text-decoration: none;
+}
+.panelsurround {
+	background: #f7d8b4;
+	color: #542B1A;
+	font-size: 16px;
+	font-weight: bold;
+}
+.vBulletin_editor {
+	
+}
+.vbmenu_control {
+	background: transparent url('../shbkat/tab.jpg') repeat-x center -1px;
+	color: #dbe6bf;
+	font: bold 13px arial, arial, helvetica,verdana;
+	text-align: center;
+	height:20px;
+	padding:5px;
+	text-shadow: 0 1px 0 #21241e;
+	white-space: nowrap;
+}
+.vbmenu_control a:link, .vbmenu_control_alink {
+	color: #dbe6bf;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited {
+	color: #dbe6bf;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.vbmenu_popup {
+	background: #ffdaad;
+	color: #b01e6f;
+	font-family: arial, arial, helvetica,verdana;
+}
+.vbmenu_option {
+	background: #ffdaad;
+	color: #90502F;
+	font: 12px arial, arial, helvetica,verdana;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink {
+	color: #90502F;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited {
+	color: #90502F;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover {
+	color: #90502F;
+	text-decoration: none;
+}
+.vbmenu_hilite {
+	background: #FFFFFF;
+	color: #B67451;
+	font: 13px arial, arial, helvetica,verdana;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink {
+	color: #B67451;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited {
+	color: #B67451;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover {
+	color: #B67451;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername {
+	font-size: 15pt;
+}
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead {
+	padding: 4px;
+}
+/* ***** basic styles for multi-page nav elements */
+.pagenav a {
+	text-decoration: none;
+}
+.pagenav td {
+	padding: 2px 4px 2px 4px;
+}
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited {
+	color: #777777;
+	text-decoration: none;
+}
+a.shade:active, a.shade:hover {
+	color: #FF0000;
+	text-decoration: underline;
+}
+.tcat .shade, .thead .shade, .tfoot .shade {
+	color: #DDDDDD;
+}
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset {
+	margin-bottom: 6px;
+}
+.fieldset, .fieldset td, .fieldset p, .fieldset li {
+	font-size: 11px;
+}
+/* Css */
+.button {
+	color: #666666;
+	padding: 5px;
+}
+.infouser {
+	font: normal 13px "arial";
+	letter-spacing: 0px;
+	vertical-align: middle;
+	padding: 1px 2px;
+	margin: 0 2px 2px;
+}
+.avataruser {
+}
+.avataruser img {
+	margin: auto;
+	border: 1px #FFFFFF solid;
+	margin-top: 15px;
+	padding: 5px;
+	background: #FFF4E8;
+}
+/* - shbkat - */
+:hover.tcat {
+}
+
+:hover.button {
+	color: #333333;
+}
+:hover.vbmenu_control {
+}
+/* Start Cat */
+.Cat {
+	overflow: hidden;
+	background-color: #fff;
+	width: 912px;
+	margin: auto;
+}
+.Cat h1 {
+	font-size: 20px;
+}
+.CatTop {
+	background: transparent url('http://i38.servimg.com/u/f38/13/83/13/10/41010.jpg') no-repeat scroll center center;
+	height: 60px;
+}
+.CatTop_Right {
+	float: right;
+	height: 60px;
+	width: 333px;
+}
+.CatTop_Right h1 {
+	color: #e5a063;
+	padding-top: 17px;
+	margin-right: 20px;
+	text-align: center;
+	width: 280px;
+	font: bold 13px arial;
+	text-shadow: 0 1px 0 #331d13;
+	float: right;
+}
+.CatTop_Right h1 a {
+	color: #e5a063;
+}
+.CatTop_Right h1 a:hover {
+	color: #fbc799;
+}
+.CatTop_Left {
+	float: left;
+	width: 55px;
+	height: 60px;
+	display: none;
+}
+.CatCenter_Right {
+	background: #f7d8b4 url('http://i57.servimg.com/u/f57/18/02/43/58/blockd10.jpg') repeat-y scroll right;
+	padding-right: 10px;
+}
+.CatCenter_Left {
+	background: #f7d8b4 url('../shbkat/blockdash.jpg') repeat-y scroll center left;
+	padding-left: 10px;
+}
+.CatBody {
+	padding: 0px;
+	overflow: hidden;
+	margin-left: 2px;
+	background-color: #fff7ed;
+}
+.CatBottom {
+	background: transparent url('http://i39.servimg.com/u/f39/13/83/13/10/4210.jpg') repeat-x scroll;
+	height: 50px;
+}
+.CatBottom_Right {
+	background: transparent url('../shbkat/b8.jpg') no-repeat scroll right;
+	width: 11px;
+	height: 26px;
+	float: right;
+	display:none;
+}
+.CatBottom_Left {
+	background: transparent url('../shbkat/b6.jpg') no-repeat scroll left;
+	width: 181px;
+	height: 26px;
+	float: left;
+	display:none;
+}
+/* End Cat */
+/* Shbkat Start */
+.Page {
+	width: 985px;
+	height: auto;
+	overflow: hidden;
+	margin: auto;
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/pagebg10.jpg') repeat-y scroll center top;
+}
+.PageTop {
+	width: 920px;
+	margin: auto;
+}
+.HeaderCon {
+	width: 100%;
+	height: 393px;
+	margin: auto;
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/hedbg11.jpg') repeat-x scroll center top;
+}
+.Header {
+	width: 985px;
+	height: 393px;
+	margin: auto;
+}
+.HeaderTop {
+	width: 985px;
+	height: 80px;
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/top210.jpg') repeat-x scroll center top;
+}
+.HeaderTopLeft {
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/top110.jpg') repeat-x scroll center top;
+	float: left;
+	width: 12px;
+	height: 80px;
+}
+.HeaderTopRight {
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/top310.jpg') repeat-x scroll center top;
+	float: right;
+	width: 12px;
+	height: 80px;
+}
+.Menu {
+	height: 80px;
+	float: right;
+	width: 945px;
+	margin-right: 15px;
+}
+.Menu ul {
+}
+.Menu li {
+	display: inline;
+}
+.Menu li a {
+	float: right;
+	background: transparent url('http://i57.servimg.com/u/f57/13/83/13/10/310.jpg') repeat-x scroll right top;
+	width: 125px;
+	height: 81px;
+	line-height: 65px;
+	text-align: center;
+	margin: 0 0 0 9px;
+	font-weight: bold;
+	color: #e5eddb;
+	text-shadow: 0 1px 0 #4e5745;
+}
+.Menu li a:hover, .Menu li.select a {
+	background: transparent url('../shbkat/topbtn.jpg') repeat-x scroll left top;
+	color: #FFF;
+	text-shadow: 0 1px 0 #616b55;
+}
+.TopShadw {
+	width: 985px;
+	height: 177px;
+	float: right;
+}
+.TopShadwRight {
+	background: transparent url('http://i38.servimg.com/u/f38/13/83/13/10/111.jpg') repeat-x scroll left top;
+	width: 394px;
+	height: 177px;
+	float: right;
+}
+.TopShadwLeft {
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/topsha10.jpg') repeat-x scroll left top;
+	width: 591px;
+	height: 177px;
+	float: left;
+}
+.NavBar {
+	width: 985px;
+	float: right;
+	height: 58px;
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/navbg10.jpg') repeat-x scroll left top;
+}
+.NavBarRight {
+	width: 29px;
+	float: right;
+	height: 58px;
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/navrig10.jpg') repeat-x scroll left top;
+}
+.NavBar .Search {
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/navsea10.jpg') no-repeat scroll left top;
+	width: 355px;
+	height: 58px;
+	float: left;
+	padding: 7px 0 0 20px;
+}
+.NavBar .Search .Box {
+	width: 212px;
+	height: 35px;
+	line-height: 35px;
+	margin-top: 6px;
+	border: none 0px;
+	background: none;
+	color: #cd824b;
+	float: right;
+	margin-right: 30px;
+	direction: rtl;
+	cursor: pointer;
+}
+.NavBar .Search .Go {
+	width: 82px;
+	height: 44px;
+	float: left;
+}
+.NavBarMenu {
+	height: 108px;
+	display: block;
+}
+.NavBarMenu {
+	height: 58px;
+	display: block;
+}
+.NavBarMenu ul {
+	padding: 11px 14px 0 0;
+}
+.NavBarMenu li a {
+	float: right;
+	width: 117px;
+	height: 40px;
+	line-height: 33px;
+	text-align: center;
+	color: #542b1a;
+	background: transparent;
+	margin: 0 0 0 10px;
+	text-shadow: 0 1px 0 #e2a969;
+	font-weight: bold;
+}
+.NavBarMenu li a:hover, .NavBarMenu li.select a {
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/navbtn10.jpg') no-repeat scroll right top;
+	color: #f7dcbd;
+	text-shadow: 0 1px 0 #24130c;
+}
+.NavBarShadow {
+	width: 985px;
+	float: right;
+	height: 78px;
+	background: transparent url('http://i38.servimg.com/u/f38/13/83/13/10/88881010.jpg') repeat-x scroll left top;
+}
+/* Css */
+.Adv468 {
+	width: 468px;
+	height: 90px;
+	float: left;
+	margin-top: 55px;
+	margin-left: 33px;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( enabled=true , sizingMethod=scale src='http://i57.servimg.com/u/f57/18/02/43/58/468shd10.png');
+	background-position: left bottom;
+	background-repeat: repeat-x;
+}
+.Adv468[class] {
+	background: transparent url('../shbkat/468shdow.png') repeat-x scroll left bottom;
+}
+/* Css */
+.Footer {
+	width: 100%;
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/footba10.jpg') repeat-x scroll left top;
+	float: right;
+}
+.Footer .Center {
+	width: 985px;
+	height: auto;
+	margin: 0 auto;
+}
+.Footer .Center .Top {
+	height: 72px;
+	background: transparent url('http://i39.servimg.com/u/f39/13/83/13/10/2210.jpg') repeat-x scroll left top;
+	width: 985px;
+}
+.Footer .Center .Center {
+	background: transparent url('http://i38.servimg.com/u/f38/13/83/13/10/210.jpg') no-repeat scroll left top;
+	height: 157px;
+}
+.Footer .Center .Center ul {
+	float: right;
+	width: 196px;
+	direction: rtl;
+	margin-right: 15px;
+	margin-top: 18px;
+}
+.Footer .Center .Center li {
+	display: inline;
+}
+.Footer .Center .Center li a {
+	float: right;
+	width: 196px;
+	height: 28px;
+	line-height: 26px;
+	text-shadow: 0 1px 0 #2c1b13;
+	border-bottom: 1px #845136 dotted;
+	background-position: 10px;
+	color: #b67451;
+}
+.Footer .Center .Center li a:hover {
+	color: #e09168;
+	border-bottom: 1px #e09168 dotted;
+}
+.Footer .Center .Bototm {
+	height: 57px;
+}
+.Footer .Center .Bototm .Left {
+	background: transparent url('http://i57.servimg.com/u/f57/18/02/43/58/footsh10.jpg') no-repeat scroll right top;
+	float: left;
+	height: 57px;
+	width: 123px;
+	float: left;
+}
+.Footer .Center .Bototm .Right {
+	float: right;
+	width: 777px;
+	height: 57px;
+}
+.Footer .Center .Bototm .Right ul {
+	padding: 11px 14px 0 0;
+}
+.Footer .Center .Bototm .Right li {
+	display: inline;
+}
+.Footer .Center .Bototm .Right li a {
+	float: right;
+	width: 107px;
+	height: 42px;
+	line-height: 33px;
+	text-align: center;
+	color: #eaf4d3;
+	text-shadow: 0 1px 0 #383e2f;
+	background: transparent;
+	margin-left: 8px;
+}
+.Footer .Center .Bototm .Right li a:hover, .Footer .Center .Bototm .Right li.select a {
+	background: transparent url('http://i57.servimg.com/u/f57/13/83/13/10/footna10.jpg') no-repeat scroll right top;
+	text-shadow: 0 1px 0 #28130b;
+	color: #eca78b;
+}
+/* css */
+.Chat {
+	float: right;
+	width: 463px;
+	height: 218px;
+	margin-right: 25px;
+	margin-left: 25px;
+}
+.ChatRight {
+	float: right;
+	width: 95px;
+	height: 218px;
+	background: transparent url('../shbkat/chat3.jpg') no-repeat scroll right top;
+}
+.ChatCenter {
+	float: right;
+	width: 237px;
+	height: 218px;
+	background: transparent url('../shbkat/chat2.jpg') no-repeat scroll right top;
+}
+.ChatApplet {
+	width: 210px;
+	height: 66px;
+	margin: auto;
+	margin-top: 66px;
+}
+.ChatLeft {
+	float: right;
+	width: 131px;
+	height: 218px;
+	background: transparent url('../shbkat/chat1.jpg') no-repeat scroll right top;
+}
+/* css */
